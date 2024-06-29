@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spices Product Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="tech">
+    <div class="product">
+        <h1>Spices Product</h1>
+        <button id="buyNowButton">Buy Now</button>
+    </div>
+
+    <div id="addToCart" class="hidden">
+        <h2>Product added to cart</h2>
+        <button id="proceedToBooking">Proceed to Booking</button>
+    </div>
+
+    <div id="bookingPage" class="hidden">
+        <h2>Booking Page</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+    <div id="orderConfirmation" class="hidden">
+        <h2>Order Successful!</h2>
+        <p>Thank you for your purchase.</p>
+        <!-- <button>
+            <a href="#product">Go back</a>
+        </button> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
